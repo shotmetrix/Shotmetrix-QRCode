@@ -1,0 +1,280 @@
+{
+    "description": "Shotmetrix QR code: discipline numbers, Shotmetrix discipline codes and their targets (diameters in mm, ISSF 6.3.4). Numbers are never reassigned.",
+    "disciplines": [
+        {
+            "number": 1,
+            "code": "10m_air_rifle",
+            "name_en": "10m Air Rifle",
+            "name_de": "10 m Luftgewehr",
+            "distance_m": 10,
+            "calibre_mm": 4.5,
+            "targets": [
+                {
+                    "id": "air_rifle",
+                    "name": "10m air rifle target",
+                    "ten_ring_mm": 0.5,
+                    "inner_ten_mm": null,
+                    "ring_step_mm": 2.5,
+                    "black_mm": 30.5,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 45.5,
+                    "zone_mm": 0.25
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 2,
+            "code": "10m_air_rifle_supported",
+            "name_en": "10m Air Rifle (supported)",
+            "name_de": "10 m Luftgewehr Auflage",
+            "distance_m": 10,
+            "calibre_mm": 4.5,
+            "targets": [
+                {
+                    "id": "air_rifle",
+                    "name": "10m air rifle target",
+                    "ten_ring_mm": 0.5,
+                    "inner_ten_mm": null,
+                    "ring_step_mm": 2.5,
+                    "black_mm": 30.5,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 45.5,
+                    "zone_mm": 0.25
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 3,
+            "code": "10m_air_pistol",
+            "name_en": "10m Air Pistol",
+            "name_de": "10 m Luftpistole",
+            "distance_m": 10,
+            "calibre_mm": 4.5,
+            "targets": [
+                {
+                    "id": "air_pistol",
+                    "name": "10m air pistol target",
+                    "ten_ring_mm": 11.5,
+                    "inner_ten_mm": 5,
+                    "ring_step_mm": 8,
+                    "black_mm": 59.5,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 155.5,
+                    "zone_mm": 0.8
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 4,
+            "code": "10m_air_pistol_supported",
+            "name_en": "10m Air Pistol (supported)",
+            "name_de": "10 m Luftpistole Auflage",
+            "distance_m": 10,
+            "calibre_mm": 4.5,
+            "targets": [
+                {
+                    "id": "air_pistol",
+                    "name": "10m air pistol target",
+                    "ten_ring_mm": 11.5,
+                    "inner_ten_mm": 5,
+                    "ring_step_mm": 8,
+                    "black_mm": 59.5,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 155.5,
+                    "zone_mm": 0.8
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 5,
+            "code": "50m_rifle_prone",
+            "name_en": "50m Rifle Prone",
+            "name_de": "50 m Gewehr liegend",
+            "distance_m": 50,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "rifle_50m",
+                    "name": "50m rifle target",
+                    "ten_ring_mm": 10.4,
+                    "inner_ten_mm": 5,
+                    "ring_step_mm": 8,
+                    "black_mm": 112.4,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 154.4,
+                    "zone_mm": 0.8
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 6,
+            "code": "50m_rifle_3_positions",
+            "name_en": "50m Rifle 3 Positions",
+            "name_de": "50 m Gewehr 3 Stellungen",
+            "distance_m": 50,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "rifle_50m",
+                    "name": "50m rifle target",
+                    "ten_ring_mm": 10.4,
+                    "inner_ten_mm": 5,
+                    "ring_step_mm": 8,
+                    "black_mm": 112.4,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 154.4,
+                    "zone_mm": 0.8
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 7,
+            "code": "50m_rifle_supported",
+            "name_en": "50m Rifle (supported)",
+            "name_de": "50 m Gewehr Auflage",
+            "distance_m": 50,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "rifle_50m",
+                    "name": "50m rifle target",
+                    "ten_ring_mm": 10.4,
+                    "inner_ten_mm": 5,
+                    "ring_step_mm": 8,
+                    "black_mm": 112.4,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 154.4,
+                    "zone_mm": 0.8
+                }
+            ],
+            "score_check_tolerance_tenths": 3
+        },
+        {
+            "number": 8,
+            "code": "25m_pistol",
+            "name_en": "25m Pistol",
+            "name_de": "25 m Pistole",
+            "distance_m": 25,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "precision",
+                    "name": "25m precision and 50m pistol target",
+                    "ten_ring_mm": 50,
+                    "inner_ten_mm": 25,
+                    "ring_step_mm": 25,
+                    "black_mm": 200,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 2.5
+                },
+                {
+                    "id": "rapid_fire",
+                    "name": "25m rapid fire target",
+                    "ten_ring_mm": 100,
+                    "inner_ten_mm": 50,
+                    "ring_step_mm": 40,
+                    "black_mm": 500,
+                    "lowest_ring": 5,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 4
+                }
+            ],
+            "score_check_tolerance_tenths": 10
+        },
+        {
+            "number": 9,
+            "code": "25m_rapid_fire_pistol",
+            "name_en": "25m Rapid Fire Pistol",
+            "name_de": "25 m Schnellfeuerpistole",
+            "distance_m": 25,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "rapid_fire",
+                    "name": "25m rapid fire target",
+                    "ten_ring_mm": 100,
+                    "inner_ten_mm": 50,
+                    "ring_step_mm": 40,
+                    "black_mm": 500,
+                    "lowest_ring": 5,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 4
+                }
+            ],
+            "score_check_tolerance_tenths": null
+        },
+        {
+            "number": 10,
+            "code": "25m_standard_pistol",
+            "name_en": "25m Standard Pistol",
+            "name_de": "25 m Standardpistole",
+            "distance_m": 25,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "precision",
+                    "name": "25m precision and 50m pistol target",
+                    "ten_ring_mm": 50,
+                    "inner_ten_mm": 25,
+                    "ring_step_mm": 25,
+                    "black_mm": 200,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 2.5
+                }
+            ],
+            "score_check_tolerance_tenths": 10
+        },
+        {
+            "number": 11,
+            "code": "50m_pistol",
+            "name_en": "50m Pistol",
+            "name_de": "50 m Pistole",
+            "distance_m": 50,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "precision",
+                    "name": "25m precision and 50m pistol target",
+                    "ten_ring_mm": 50,
+                    "inner_ten_mm": 25,
+                    "ring_step_mm": 25,
+                    "black_mm": 200,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 2.5
+                }
+            ],
+            "score_check_tolerance_tenths": 10
+        },
+        {
+            "number": 12,
+            "code": "25m_pistol_supported",
+            "name_en": "25m Pistol (supported)",
+            "name_de": "25 m Pistole Auflage",
+            "distance_m": 25,
+            "calibre_mm": 5.6,
+            "targets": [
+                {
+                    "id": "precision",
+                    "name": "25m precision and 50m pistol target",
+                    "ten_ring_mm": 50,
+                    "inner_ten_mm": 25,
+                    "ring_step_mm": 25,
+                    "black_mm": 200,
+                    "lowest_ring": 1,
+                    "outer_ring_mm": 500,
+                    "zone_mm": 2.5
+                }
+            ],
+            "score_check_tolerance_tenths": 10
+        }
+    ]
+}

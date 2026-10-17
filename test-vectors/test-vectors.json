@@ -1,0 +1,2652 @@
+{
+    "description": "Test vectors for the Shotmetrix QR code, version 1. Fixed id and ephemeral key, unused shot slots filled with zero bytes. Shot times are absolute Unix seconds. Made with the TEST key: its private half is published here, so Shotmetrix does not accept these codes.",
+    "test_private_key": "eisC9XOwbYON9fkDPNOOOqJc0R1ZZjrsJFa0oFQQqWY=",
+    "test_public_key": "ippXliy/qkAZ4iA8EKDKNiTmf+2AVGgotlr+/kmko2w=",
+    "url_prefix": "https://shotmetrix.com/api/qrcode/",
+    "valid": [
+        {
+            "name": "air-rifle-10-with-app-and-shot-times",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 7,
+            "app_secret": "secret-of-app-7",
+            "id_hex": "00112233445566778899aabbccddeeff",
+            "ephemeral_private_hex": "708cfcb784b7598ec264980bcb6329ef0341b0bd977e749d6c759a2c2885f9ae",
+            "shots": [
+                {
+                    "x": 1.2,
+                    "y": 0.8,
+                    "value": 10.4,
+                    "sighter": true,
+                    "time": 1791900184.37
+                },
+                {
+                    "x": -0.7,
+                    "y": -1,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": 1791900362.7
+                },
+                {
+                    "x": 1.2,
+                    "y": 1,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": 1791900417.24
+                },
+                {
+                    "x": -1.1,
+                    "y": -0.8,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": 1791900461.54
+                },
+                {
+                    "x": -1.4,
+                    "y": 1.4,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791900502.14
+                },
+                {
+                    "x": -0.5,
+                    "y": 1.7,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791900569.88
+                },
+                {
+                    "x": 2,
+                    "y": -0.2,
+                    "value": 10.1,
+                    "sighter": false,
+                    "time": 1791900623.31
+                },
+                {
+                    "x": -1.7,
+                    "y": -0.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": 1791900667.31
+                },
+                {
+                    "x": -0.5,
+                    "y": -1.8,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791900743.41
+                },
+                {
+                    "x": -0.7,
+                    "y": 1.3,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": 1791900807.58
+                },
+                {
+                    "x": -0.1,
+                    "y": -0.9,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": 1791900841.27
+                }
+            ],
+            "plaintext_hex": "00112233445566778899aabbccddeeff0007e46d6f2622aa3fdf6ace396001010b040800078050d1004805fbaf9cd2008dae078064ce00a2fcf92fb0d000b44af7408ccc00c426fce0aacc00de9c0c8fecca00f37bf56fd8ce0104abfcef4ccc012265fba082d0013b76ff6fa6d401489f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "code": "AH3EXSUR7I56BWHBJJEKUTH4C2ALEH7H6C2P4WMSAFOFLWOZHVBR24DXNIHUGV7I72WRBFJQ7TUAOHPC7TIUII4OVPL6E6CAEEWKK2HMPPN4U4YGMBUPOZHM6NYOX3OU5K6UT4HAHRIPRWSWNJC2RZMIKOOEFNWGYCBK5VHZONY7ZVFROJ7K5P4MCO2VRAYNIM5K2HG6NCIKIMTKVJ2B3V7VMQQD3JVEPBKECC4WQGJWLER4RCEPH4TJULL46F5U2ZF7PT5QULHQOAKLTJPLMBVQQRP52MEVOT4VLCARLGEJ7KJLJGPBPW2AOXK2YJKXWGZ5SBUWJBYUEYMFBZ4K4S67245LF6AZOGWK6WCSYFAXGP3UXHNKHRQH73OC2ND7SCCXGIDCT555S7EWFLO3CJ4ICWFJHCWQ654E7ZV4KPKOIWQHX7IFCLKV3PIFWUIFHSKKDIUWIE3JMWUMD4XCTRRWNX42N2FX6IL5EG6WJTFWEDGMYHWNFRSBUGY7D7E4CEHK3WYQBQRVZQHHQPQLTOQALDCLIA5CCFQYISB2S6553CIQAQ4OAEY5MRGLHHNKLEK76OC4W3KJDJWS4IEC5VITM5X6NELICDIS6IAE5KVXQFQ3PST63VNZPPAMS4PZPM5DKI3CHFD4AFIUSWHL7MLGCUBLFU62TKNGESH5OYYNOLNFDJUC3V3ZYMNORX3R4ZU53XFI3DBJOJS6GLMW66VRNPH3DCS3WGZHPM2KLWUGXQALBXXOGBS7SBVLQXPG5QBUOCLTT3BVRVN7LU24VV6FGV3FFB4KPVNJRCT3GTK5QZWXFI4HED47PDJN3XGU7K2AG62WLDWYGW2Q7QXO6TK44YZR6N6MVZPVUIN4IR454UIIMBUZHZ5KVVVRIJFBLZFRSTGZEAV2YGVJ4ORSV6FDEL4L62VTIMKE6JWA2KKFCWJPYQUE37LUTLUBX3L2J6UMIPK6WOVBLF5WP3PEQFORXC443V7LD6WUA2QFRKCP5NM3R2VGSM7RTQWBMW47RTIJBYXGXCGQMV4ZC3TEC4PLELUG7Q55MBHB7M36I6PP6UMVSF7GOY4PMYX6FWFWD524JWSMDTIT2ATI5NJUCGP5YSS6OSCEALWDWVHTFRSHB3DNYHIYNZFOKZJNNWUQWMRZ6URUC5PPHGEKYOSOO2XRZFFQVQ2H4LKEYVKKK7KDO5XYDACED3GG3XUUTOAIQLPPEK6VLCIDLOBITQI7HAM5UJG6N7MQ73CSSY76DF2UBGJ2WEPZIJWWBQCMCMUKH6JWWU3DGORPDD74VJGAKDZ5YCFWKGGGXGRABBBP53BHQSEXMDB5PDL3BRSAA6LJIK2T5BQ75YTOKOFNK4PVH5V4KT2T6AOP4APVAGMY777ZUJCB4Z3KJ6VQA5KSBC6RMQTFVEW6CZ2PFYBU2NWHOOQOXBGKVJZ4LPXNNNWIW54VMQQ2KIHHYRITDLFCYAMMY65YS22UYQC75JDNPJTTKCTHW2GV6DOMLKZTREH6ZPIJ2WUYA7QLNYEC7ZXS4FSN7YIKCXEWSJ4EMOG5GE2N6",
+            "url": "https://shotmetrix.com/api/qrcode/AH3EXSUR7I56BWHBJJEKUTH4C2ALEH7H6C2P4WMSAFOFLWOZHVBR24DXNIHUGV7I72WRBFJQ7TUAOHPC7TIUII4OVPL6E6CAEEWKK2HMPPN4U4YGMBUPOZHM6NYOX3OU5K6UT4HAHRIPRWSWNJC2RZMIKOOEFNWGYCBK5VHZONY7ZVFROJ7K5P4MCO2VRAYNIM5K2HG6NCIKIMTKVJ2B3V7VMQQD3JVEPBKECC4WQGJWLER4RCEPH4TJULL46F5U2ZF7PT5QULHQOAKLTJPLMBVQQRP52MEVOT4VLCARLGEJ7KJLJGPBPW2AOXK2YJKXWGZ5SBUWJBYUEYMFBZ4K4S67245LF6AZOGWK6WCSYFAXGP3UXHNKHRQH73OC2ND7SCCXGIDCT555S7EWFLO3CJ4ICWFJHCWQ654E7ZV4KPKOIWQHX7IFCLKV3PIFWUIFHSKKDIUWIE3JMWUMD4XCTRRWNX42N2FX6IL5EG6WJTFWEDGMYHWNFRSBUGY7D7E4CEHK3WYQBQRVZQHHQPQLTOQALDCLIA5CCFQYISB2S6553CIQAQ4OAEY5MRGLHHNKLEK76OC4W3KJDJWS4IEC5VITM5X6NELICDIS6IAE5KVXQFQ3PST63VNZPPAMS4PZPM5DKI3CHFD4AFIUSWHL7MLGCUBLFU62TKNGESH5OYYNOLNFDJUC3V3ZYMNORX3R4ZU53XFI3DBJOJS6GLMW66VRNPH3DCS3WGZHPM2KLWUGXQALBXXOGBS7SBVLQXPG5QBUOCLTT3BVRVN7LU24VV6FGV3FFB4KPVNJRCT3GTK5QZWXFI4HED47PDJN3XGU7K2AG62WLDWYGW2Q7QXO6TK44YZR6N6MVZPVUIN4IR454UIIMBUZHZ5KVVVRIJFBLZFRSTGZEAV2YGVJ4ORSV6FDEL4L62VTIMKE6JWA2KKFCWJPYQUE37LUTLUBX3L2J6UMIPK6WOVBLF5WP3PEQFORXC443V7LD6WUA2QFRKCP5NM3R2VGSM7RTQWBMW47RTIJBYXGXCGQMV4ZC3TEC4PLELUG7Q55MBHB7M36I6PP6UMVSF7GOY4PMYX6FWFWD524JWSMDTIT2ATI5NJUCGP5YSS6OSCEALWDWVHTFRSHB3DNYHIYNZFOKZJNNWUQWMRZ6URUC5PPHGEKYOSOO2XRZFFQVQ2H4LKEYVKKK7KDO5XYDACED3GG3XUUTOAIQLPPEK6VLCIDLOBITQI7HAM5UJG6N7MQ73CSSY76DF2UBGJ2WEPZIJWWBQCMCMUKH6JWWU3DGORPDD74VJGAKDZ5YCFWKGGGXGRABBBP53BHQSEXMDB5PDL3BRSAA6LJIK2T5BQ75YTOKOFNK4PVH5V4KT2T6AOP4APVAGMY777ZUJCB4Z3KJ6VQA5KSBC6RMQTFVEW6CZ2PFYBU2NWHOOQOXBGKVJZ4LPXNNNWIW54VMQQ2KIHHYRITDLFCYAMMY65YS22UYQC75JDNPJTTKCTHW2GV6DOMLKZTREH6ZPIJ2WUYA7QLNYEC7ZXS4FSN7YIKCXEWSJ4EMOG5GE2N6"
+        },
+        {
+            "name": "air-pistol-60-some-without-position-or-time",
+            "discipline": 3,
+            "decimal": true,
+            "time": 1791950000,
+            "app": 0,
+            "app_secret": "",
+            "id_hex": "0112233445566778899aabbccddeef00",
+            "ephemeral_private_hex": "7b4554b32a613b6576adca6dcd5679e0bdf7f4e4be6f2cd84149eb33a84ff377",
+            "shots": [
+                {
+                    "x": 0.6,
+                    "y": -2.8,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": 1791950670.07
+                },
+                {
+                    "x": 0.3,
+                    "y": 10.4,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791950735.86
+                },
+                {
+                    "x": -4.8,
+                    "y": 3.6,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791950808.45
+                },
+                {
+                    "x": -1.6,
+                    "y": -7.6,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1791950897.96
+                },
+                {
+                    "x": 4.4,
+                    "y": -7.5,
+                    "value": 9.9,
+                    "sighter": false,
+                    "time": 1791950973.62
+                },
+                {
+                    "x": 7.7,
+                    "y": 7.7,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791951041.17
+                },
+                {
+                    "x": -4.1,
+                    "y": -12.7,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": 1791951100.81
+                },
+                {
+                    "x": 5.4,
+                    "y": -9.6,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791951140.65
+                },
+                {
+                    "x": -3.3,
+                    "y": 3.3,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": 1791951208.78
+                },
+                {
+                    "x": -3.7,
+                    "y": 3.9,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": 1791951289.57
+                },
+                {
+                    "x": 3.7,
+                    "y": 1.8,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": 1791951338.81
+                },
+                {
+                    "x": 8.3,
+                    "y": -6.2,
+                    "value": 9.7,
+                    "sighter": false,
+                    "time": 1791951403.24
+                },
+                {
+                    "x": -3.2,
+                    "y": 3.1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": 1791951465.81
+                },
+                {
+                    "x": -3.1,
+                    "y": 8,
+                    "value": 9.9,
+                    "sighter": false,
+                    "time": 1791951511.19
+                },
+                {
+                    "x": 11.7,
+                    "y": -4.2,
+                    "value": 9.4,
+                    "sighter": false,
+                    "time": 1791951572.78
+                },
+                {
+                    "x": -1.9,
+                    "y": -0.8,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": 1791951661.71
+                },
+                {
+                    "x": 4.4,
+                    "y": 7,
+                    "value": 9.9,
+                    "sighter": false,
+                    "time": 1791951739.64
+                },
+                {
+                    "x": -2.4,
+                    "y": -12.5,
+                    "value": 9.4,
+                    "sighter": false,
+                    "time": 1791951788.16
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": 1791951878.7
+                },
+                {
+                    "x": 5.5,
+                    "y": 1.1,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791951969.42
+                },
+                {
+                    "x": -1.2,
+                    "y": -2.5,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": 1791952020.97
+                },
+                {
+                    "x": -3.6,
+                    "y": -4.3,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": 1791952107.25
+                },
+                {
+                    "x": -12.1,
+                    "y": 4.9,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": 1791952172.16
+                },
+                {
+                    "x": 6.4,
+                    "y": 10.6,
+                    "value": 9.4,
+                    "sighter": false,
+                    "time": 1791952211.35
+                },
+                {
+                    "x": 2.2,
+                    "y": -7.3,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1791952257.11
+                },
+                {
+                    "x": 1.9,
+                    "y": 9.2,
+                    "value": 9.8,
+                    "sighter": false,
+                    "time": 1791952308.76
+                },
+                {
+                    "x": -0.6,
+                    "y": -11.8,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791952362.42
+                },
+                {
+                    "x": 2.9,
+                    "y": 11.1,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791952432.61
+                },
+                {
+                    "x": 4.7,
+                    "y": -4.4,
+                    "value": 10.1,
+                    "sighter": false,
+                    "time": 1791952478.55
+                },
+                {
+                    "x": -13,
+                    "y": -5,
+                    "value": 9.2,
+                    "sighter": false,
+                    "time": 1791952539.99
+                },
+                {
+                    "x": -2.5,
+                    "y": 2.4,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": 1791952593.84
+                },
+                {
+                    "x": -1,
+                    "y": -6.5,
+                    "value": 10.1,
+                    "sighter": false,
+                    "time": 1791952651.13
+                },
+                {
+                    "x": -7.7,
+                    "y": 4,
+                    "value": 9.9,
+                    "sighter": false,
+                    "time": 1791952731.15
+                },
+                {
+                    "x": 9.5,
+                    "y": -5.8,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791952794.94
+                },
+                {
+                    "x": -10,
+                    "y": -4.7,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791952872.89
+                },
+                {
+                    "x": 7.3,
+                    "y": -5.2,
+                    "value": 9.8,
+                    "sighter": false,
+                    "time": 1791952930.16
+                },
+                {
+                    "x": 8.8,
+                    "y": 2.8,
+                    "value": 9.8,
+                    "sighter": false,
+                    "time": 1791952992.78
+                },
+                {
+                    "x": 5.4,
+                    "y": 10,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791953079.71
+                },
+                {
+                    "x": 3.4,
+                    "y": -13.2,
+                    "value": 9.2,
+                    "sighter": false,
+                    "time": 1791953166.64
+                },
+                {
+                    "x": 10.4,
+                    "y": -4.7,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791953231.53
+                },
+                {
+                    "x": -9.4,
+                    "y": -10.1,
+                    "value": 9.2,
+                    "sighter": false,
+                    "time": 1791953273.46
+                },
+                {
+                    "x": 7.8,
+                    "y": 1.4,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1791953344.19
+                },
+                {
+                    "x": -2.8,
+                    "y": -3.9,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": 1791953414.26
+                },
+                {
+                    "x": -10.2,
+                    "y": -6.1,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791953500.32
+                },
+                {
+                    "x": 3.3,
+                    "y": -6.6,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1791953544.77
+                },
+                {
+                    "x": -0.7,
+                    "y": -13.4,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": 1791953614.47
+                },
+                {
+                    "x": 1.3,
+                    "y": -0.8,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": 1791953692.3
+                },
+                {
+                    "x": -8.8,
+                    "y": -9.3,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": 1791953748.8
+                },
+                {
+                    "x": 2.3,
+                    "y": -6.5,
+                    "value": 10.1,
+                    "sighter": false,
+                    "time": 1791953788.53
+                },
+                {
+                    "x": 9,
+                    "y": -7.2,
+                    "value": 9.5,
+                    "sighter": false,
+                    "time": 1791953869.71
+                },
+                {
+                    "x": 2.5,
+                    "y": 2.1,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": 1791953910.27
+                },
+                {
+                    "x": -1.7,
+                    "y": 11,
+                    "value": 9.6,
+                    "sighter": false,
+                    "time": 1791953953.34
+                },
+                {
+                    "x": -12.8,
+                    "y": 3.7,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": 1791954005.59
+                },
+                {
+                    "x": 4.7,
+                    "y": 1.5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": 1791954084.66
+                },
+                {
+                    "x": 11.4,
+                    "y": -5.7,
+                    "value": 9.4,
+                    "sighter": false,
+                    "time": 1791954148.35
+                },
+                {
+                    "x": -2.5,
+                    "y": 12,
+                    "value": 9.4,
+                    "sighter": false,
+                    "time": 1791954195.23
+                },
+                {
+                    "x": 8,
+                    "y": -11.2,
+                    "value": 9.2,
+                    "sighter": false,
+                    "time": 1791954253.64
+                },
+                {
+                    "x": -0.7,
+                    "y": -8.8,
+                    "value": 9.8,
+                    "sighter": false,
+                    "time": 1791954332.73
+                },
+                {
+                    "x": -3.9,
+                    "y": -8.4,
+                    "value": 9.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": null,
+                    "y": null,
+                    "value": 9.3,
+                    "sighter": false,
+                    "time": null
+                }
+            ],
+            "plaintext_hex": "0112233445566778899aabbccddeef00000000000000000000006acefcb003013c170a0003cee8d40105bf01e410c0011f72e20168cc013bcdf60d08c8015ec41b8d12c6017c52302302c00196b5e66b0aba01ae0121cc40c001bd91eb614ad001d82ee8e186ce01f7bd1720b4d0020af933ed94c2022424ec0136d0023c95eca320c6024e4f492e5cbc02665ef42fb0d602891b1b82bcc602a78cf10b1ebc02ba80f9ced4d402ddde22606ecc03014ef88f06d4031571e98e52cc033725b461eaba035080280424bc035fcf0dcd26c80371af0be398c40385dcfc4b64be039ad2122456be03b63d1d6e48ca03c82faece0cb803e02ff060f0d203f538f9cd76ca040b99cfe190c6042adb3b6dbcc00443c6c18e2ac00462392dadf8c4047898370118c404910e21c3e8be04b303154ad8b804d4f8410e2abe04ee51c54c0eb804feb230c08cc8051a53ee8e7ace0535b2c04d9ebe05575014ad6cc80568adfbaac4ba0583e7082fb0d805a24ec90c5eba05b8600e6d76ca05c7e5384d30be05e79b0fa0d2d205f773f5644cc0060846b00172ba061caf1d6096ce063b92474dc6bc065473f064b0bc0666c3320ba0b8067d94fbac90c4069c79e7acb8c4ffffff800800baffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "code": "AHKKQVH65PVAHGXZ6TAWF4VOSPCAWPJFQGRZ4L6DSPP3BFM3DPGSEKREDJM4D25JRI6PZDA4Y2WEE4R36ZCOLTPN323D6UKE6DZVVTLVMFMIF54AERPLAO4OYQ7OOUSGTFF3HLDAK7O4G22I7FBS5FOQENGWYDHKPQQSC4NLY2IDTNQJ4YYWY752DLI3TA7H45BJOMXXQ2ABJ4TVNKH6R55F7QXZ6CCEVBKU4ENPW6UXCSWQY5WJ7J2ZYMHILEARFE4B6TOKLQNLLAQB5VBA2CTVQH62H3AQALZECGUDGBEG22RZCFAPGOLZ57VWF6IKVW7QLQR7VHJCZ3ND4VQLRAYJCEAU5EM5HOJHNZBU2VICRU2X52EVDPVWOLFISXXCS22XEHYIGZNH2LHTPLTK3KJHBMQTOV63BHVHMH725NGI6VNCU3Z7AW2JUQQILPPKY55BHQDRQQYMYOWFFAQW4BNJFPUN4LCL5RGZSHLFK37WX74JUDH4SUQXIQCXQJIR5DTTYLVUR3UIUOCTQVQ5XVVMLPDCDG5AGXEWPISHSTYNIXW3XSVHJWILUTQDNQEHFNLW6GOU4GKA5M3WXZUM6RUIWLFX5HNHU6YGRHOGAT5IMYDUEUWM73JUY25SI7GUMUSFLDBELABI4TWVO7SQDBQVV3LP6HDMULH2CDHPZWTH2L7TEE2377VOUCGO5GSQRCPDDBIGAMVUPG3NBLYMNNMNU7NSLHLWQVMPRNFZT2KJE5PBABHKAXQVDWZR55XMDUDZACRQOJVSXH44BGQVDOD2IDWJP6HXUQX5K7IP4HPMT25EZGQFPO5LOMCSHWBANTZTHODB4OS43QJW3J3PRR2773DM3ST6D6JMA5GIMUAL2PRXUDC5JOYD5VXMBCU756GH6QGQNIAYPXQSXI5F5NHVIGNMKRHHGBGKQYCMWKYBN7BZE6HDGFFRIYPIVHGQIQYEEEGMNZQ6KOAKQMO2FTTRNP277ABTJVCBYYLXH7233IRLMYDFTHRUX2BD2EZNWXDUJHNDDTDJ5EQZT52YU72B5HNMUTE6O2KS25GJIAVGITJBBPJAFM5CB2CNZ7N6A4XHGFGYCCQR56P7CU5AMRBSDYR7OTCZ2OSAWJJDZ3XJCOL3VZFU7SWUK7USAOJYXEVEG5OQJXCTJLAYCTVLNBXLMYCU2MRHBJB4XIWSMDFOMDT5KWE2FJYS2VYL4UPHJLONKXS45TS3YILKFGIG5DYC3NRYJKU3KKUCONJH3H2KB45VKU6X6FQP4EUYA52VIT4M2JNPQXSJ5A4HNSW325COZJ7CGTJQ3LRZJQUZ4SRKVWZRTFPXANCPTFKBP27CD4ZOZPPXAHIANNIOGKO4LFPKSKR5DTXD727Z5QEMG2KW7JBHGLPZF7W22WW4MN3YJWLYWKQ5PVBUPSE2GSBXB265SJM6VGLYXURFTGIDNLY2K7FD5WFXXOK6GKO6R2HIGUXQHHRTLTTDWKSKXXVO5BVMQZFRO2LQC4IUAHOVIIFEWV2PFPVMV26F7VPPY3HPNAJ4L3SQCBF7ZT22ST7TI",
+            "url": "https://shotmetrix.com/api/qrcode/AHKKQVH65PVAHGXZ6TAWF4VOSPCAWPJFQGRZ4L6DSPP3BFM3DPGSEKREDJM4D25JRI6PZDA4Y2WEE4R36ZCOLTPN323D6UKE6DZVVTLVMFMIF54AERPLAO4OYQ7OOUSGTFF3HLDAK7O4G22I7FBS5FOQENGWYDHKPQQSC4NLY2IDTNQJ4YYWY752DLI3TA7H45BJOMXXQ2ABJ4TVNKH6R55F7QXZ6CCEVBKU4ENPW6UXCSWQY5WJ7J2ZYMHILEARFE4B6TOKLQNLLAQB5VBA2CTVQH62H3AQALZECGUDGBEG22RZCFAPGOLZ57VWF6IKVW7QLQR7VHJCZ3ND4VQLRAYJCEAU5EM5HOJHNZBU2VICRU2X52EVDPVWOLFISXXCS22XEHYIGZNH2LHTPLTK3KJHBMQTOV63BHVHMH725NGI6VNCU3Z7AW2JUQQILPPKY55BHQDRQQYMYOWFFAQW4BNJFPUN4LCL5RGZSHLFK37WX74JUDH4SUQXIQCXQJIR5DTTYLVUR3UIUOCTQVQ5XVVMLPDCDG5AGXEWPISHSTYNIXW3XSVHJWILUTQDNQEHFNLW6GOU4GKA5M3WXZUM6RUIWLFX5HNHU6YGRHOGAT5IMYDUEUWM73JUY25SI7GUMUSFLDBELABI4TWVO7SQDBQVV3LP6HDMULH2CDHPZWTH2L7TEE2377VOUCGO5GSQRCPDDBIGAMVUPG3NBLYMNNMNU7NSLHLWQVMPRNFZT2KJE5PBABHKAXQVDWZR55XMDUDZACRQOJVSXH44BGQVDOD2IDWJP6HXUQX5K7IP4HPMT25EZGQFPO5LOMCSHWBANTZTHODB4OS43QJW3J3PRR2773DM3ST6D6JMA5GIMUAL2PRXUDC5JOYD5VXMBCU756GH6QGQNIAYPXQSXI5F5NHVIGNMKRHHGBGKQYCMWKYBN7BZE6HDGFFRIYPIVHGQIQYEEEGMNZQ6KOAKQMO2FTTRNP277ABTJVCBYYLXH7233IRLMYDFTHRUX2BD2EZNWXDUJHNDDTDJ5EQZT52YU72B5HNMUTE6O2KS25GJIAVGITJBBPJAFM5CB2CNZ7N6A4XHGFGYCCQR56P7CU5AMRBSDYR7OTCZ2OSAWJJDZ3XJCOL3VZFU7SWUK7USAOJYXEVEG5OQJXCTJLAYCTVLNBXLMYCU2MRHBJB4XIWSMDFOMDT5KWE2FJYS2VYL4UPHJLONKXS45TS3YILKFGIG5DYC3NRYJKU3KKUCONJH3H2KB45VKU6X6FQP4EUYA52VIT4M2JNPQXSJ5A4HNSW325COZJ7CGTJQ3LRZJQUZ4SRKVWZRTFPXANCPTFKBP27CD4ZOZPPXAHIANNIOGKO4LFPKSKR5DTXD727Z5QEMG2KW7JBHGLPZF7W22WW4MN3YJWLYWKQ5PVBUPSE2GSBXB265SJM6VGLYXURFTGIDNLY2K7FD5WFXXOK6GKO6R2HIGUXQHHRTLTTDWKSKXXVO5BVMQZFRO2LQC4IUAHOVIIFEWV2PFPVMV26F7VPPY3HPNAJ4L3SQCBF7ZT22ST7TI"
+        },
+        {
+            "name": "rifle-prone-120-without-shot-times",
+            "discipline": 5,
+            "decimal": true,
+            "time": 1792000000,
+            "app": 0,
+            "app_secret": "",
+            "id_hex": "02132435465768798a9bacbdcedff001",
+            "ephemeral_private_hex": "211b51240758a4be02c9c1e1053a342a2a3829bcb63f816e0f3b9728a3dcfff5",
+            "shots": [
+                {
+                    "x": 1,
+                    "y": 5.3,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4,
+                    "y": 2.6,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.7,
+                    "y": 4.5,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.3,
+                    "y": 1.5,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.4,
+                    "y": -3.3,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.6,
+                    "y": -3.2,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.6,
+                    "y": 2.2,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.5,
+                    "y": -3.6,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.1,
+                    "y": 4.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.5,
+                    "y": 0.6,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.9,
+                    "y": -2.7,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.7,
+                    "y": 3.8,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1,
+                    "y": 3,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.1,
+                    "y": -4.8,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.3,
+                    "y": -4.7,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4,
+                    "y": 2.8,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.1,
+                    "y": -0.9,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5,
+                    "y": -2.3,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.2,
+                    "y": -4.3,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.1,
+                    "y": 4.7,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5.9,
+                    "y": -0.4,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.2,
+                    "y": 4.1,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.3,
+                    "y": 5.7,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.9,
+                    "y": 0.6,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.4,
+                    "y": 0.5,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.8,
+                    "y": 0.9,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.7,
+                    "y": 1.7,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.9,
+                    "y": 1.2,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.4,
+                    "y": -1.3,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.8,
+                    "y": 3.7,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.1,
+                    "y": -0.5,
+                    "value": 10.9,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.2,
+                    "y": 2.6,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.7,
+                    "y": -2,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.1,
+                    "y": -4.3,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.5,
+                    "y": -0.7,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.2,
+                    "y": 0,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.2,
+                    "y": -0.4,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.4,
+                    "y": -2.7,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.3,
+                    "y": -0.9,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1,
+                    "y": 5.1,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.8,
+                    "y": 4.6,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.9,
+                    "y": -2.9,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.1,
+                    "y": 4,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.8,
+                    "y": -4.1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.8,
+                    "y": -3.8,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.8,
+                    "y": 2.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.8,
+                    "y": 4.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.1,
+                    "y": 0.3,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.8,
+                    "y": 4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.2,
+                    "y": 1.1,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.1,
+                    "y": -2,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.5,
+                    "y": 3.2,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.8,
+                    "y": -5.7,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.2,
+                    "y": 3.4,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.3,
+                    "y": 1.7,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.6,
+                    "y": -2.9,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.8,
+                    "y": -2.7,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.7,
+                    "y": 0.6,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.2,
+                    "y": 4.4,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1,
+                    "y": 2.7,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.2,
+                    "y": -2.8,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.7,
+                    "y": 2.2,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.5,
+                    "y": -1.8,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0,
+                    "y": 2.7,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.9,
+                    "y": -0.6,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3,
+                    "y": -4.6,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.2,
+                    "y": 0.6,
+                    "value": 10.9,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.5,
+                    "y": -2.2,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.1,
+                    "y": -1,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.1,
+                    "y": 0.2,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.5,
+                    "y": -5.1,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.7,
+                    "y": -1.4,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5.6,
+                    "y": 0.8,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.9,
+                    "y": -4.4,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.9,
+                    "y": 1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.8,
+                    "y": 3.4,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.3,
+                    "y": -0.9,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4,
+                    "y": 4.3,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.2,
+                    "y": -3.5,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.5,
+                    "y": -1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.5,
+                    "y": 0.9,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.7,
+                    "y": -0.4,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.9,
+                    "y": -3.2,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.2,
+                    "y": 4.1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.1,
+                    "y": 1,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.4,
+                    "y": 0,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.2,
+                    "y": -4.1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.5,
+                    "y": 1.4,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.5,
+                    "y": 4.9,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.6,
+                    "y": 1.2,
+                    "value": 10.8,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.1,
+                    "y": 2.8,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5,
+                    "y": -2.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.3,
+                    "y": 1,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.2,
+                    "y": -5.5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.2,
+                    "y": -1.7,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.2,
+                    "y": -0.4,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -4.2,
+                    "y": -2,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5.4,
+                    "y": 1.8,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.3,
+                    "y": 2.7,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.5,
+                    "y": 1.7,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -3.3,
+                    "y": 3.6,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -2.5,
+                    "y": 2.8,
+                    "value": 10.5,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.1,
+                    "y": -5.2,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.4,
+                    "y": 5.3,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.4,
+                    "y": 5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -1.4,
+                    "y": 5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 3.3,
+                    "y": -4.5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -0.2,
+                    "y": -4.8,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4.7,
+                    "y": 2.2,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.8,
+                    "y": 4.8,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.2,
+                    "y": 0.2,
+                    "value": 10.9,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.3,
+                    "y": -2.9,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": -5.4,
+                    "y": -2.2,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 1.6,
+                    "y": 1.4,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 0.6,
+                    "y": -2.2,
+                    "value": 10.7,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.7,
+                    "y": -0.9,
+                    "value": 10.2,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 2.3,
+                    "y": -2,
+                    "value": 10.6,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 4,
+                    "y": 0.7,
+                    "value": 10.4,
+                    "sighter": false,
+                    "time": null
+                },
+                {
+                    "x": 5.4,
+                    "y": 0.5,
+                    "value": 10.3,
+                    "sighter": false,
+                    "time": null
+                }
+            ],
+            "plaintext_hex": "02132435465768798a9bacbdcedff001000000000000000000006acfc00005017830fe00064212ceffffffe70104d0ffffff1721c2ccffffff082096d6fffffffd8eb6d2ffffff104ec0d0fffffffc40dcd6fffffffcee98d2fffffff2e1b8ceffffff22603cceffffff186ef2d0ffffff17217cceffffff06412cd4ffffff136e20ccfffffffe2e2ad0ffffffe70118ceffffff136fa6d2ffffffe0cf1aceffffff014e52d0ffffff0d21d6ceffffffdb2fd8ccffffffe5c19accffffff01e23accffffff24e03cccfffffff74032d8fffffff4c05ad6fffffffba0aad6ffffff0be078d6fffffffd8f7ed8fffffffb0172d2ffffff00afcedafffffff24104d2fffffff56f38d4fffffff92e52d0ffffffe3efbad0ffffff140000d4ffffffe5cfd8d0ffffff08cef2d4ffffff0e6fa6d4fffffff9c1fecefffffffb01ccd0fffffff42eded2ffffff19a190ccffffff050e66d0ffffff050e84d2ffffff1e00f0ceffffff1181b8ceffffff13601ed4ffffffe84190ceffffff20806eceffffff19af38d0ffffffe3e140ceffffff0b4dc6ccfffffff88154d2ffffff01e0aad6ffffffe98eded0ffffffe20ef2ceffffffef203cd4fffffffec1b8d0fffffff9c10ed4fffffff88ee8d4fffffff560dcd4ffffffea2f4cd2ffffff00010ed4fffffffa6fc4d8ffffff12ce34cefffffffec03cdaffffff032f24d6ffffff00af9cd8ffffff19a014d0fffffffcee02cefffffffbaf74d8ffffffdd0050ccfffffff42e48d0ffffffe7a064d0ffffffee8154d0ffffff212fa6ceffffffe701aeccffffffec0ea2d0ffffffe3ef9cd0ffffff09605ad6ffffffef2fd8d4ffffff05aec0d2ffffff12c190ceffffff0dc19ad0ffffff00a064d8ffffff0f0000d6ffffff014e66d0fffffff0608cd4fffffffce1eacefffffffc4078d8ffffff00a118d4ffffffe0cf10ceffffffe52064d0ffffff014ddaceffffff1a4f56d0ffffff208fd8ceffffffe5cf38d0ffffffde40b4ccffffff1ae10eceffffff0fa0aad4ffffffeb6168cefffffff06118d2fffffff92df8ceffffff08c212ceffffff0281f4cefffffff741f4ceffffff14ae3ecefffffffece20ceffffff1d60dcceffffff0501e0ceffffff014014daffffff01eeded4ffffffde4f24ccffffff0a008cd6ffffff03cf24d6ffffff23afa6ccffffff0e6f38d4ffffff190046d0ffffff21c032ceffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "code": "AHHUNCCTDFABV5JMLEJJA6GGEJ372IMDATT7HPP42GGVLRVUJAAET4YR35B3IEFNT2LTKDKA22WGLSQDLOTKJOHNFW34FXZGZ3SPF4IV62CHC5HON3XUUUPPNCBFTWN6X6K75T2R42OHR35GXXSJ7NP5OTNFCX2ISPZIU3YMJNNBCMMWOJYG7AI3ZIQ6ZA3DYLH3DMMZGF3MGKXXN2VKZEQ4B2MCEBZKLQFK5LXTTVWHPDSNQ6VGNGPSXU3NJ3ZKJTKF6T4D6RJCOZ542YCI56ZSGPK56J4PMC57N3RI3ZQ6NAD4MLPPNQWWNHZWMW2AUG5HDRGIVHJF5FM6BLZPYDZVVWHTHH6YFOS62ZKFM5F7UBJMESLN4SBCX3ZDRSARV5PGUCWTK4XJBZBOOP4DIKDYEFOBM2QK2WLAOB2ELPPJ4UYHCIJ7ZNS52UASW7OVI3EQSL5D7LLD3SO4DNB5SWKDNMJADZEC53GCHFREQLE6YC4S6LRQP6HLQHAS3YGR5FVCGXAZFW5DQL37RCIUQIX47DN5EF7FF5XDHDU7C3GHE6HUSUBGNY5NEZSGXZDTQGTVRR7ZXR5HAWPEKI2STEYGMPIJJHVILNMTW7VL7O7VAXKCT2TL4ZUYPT2WW3ATMJLN6OE2HWR34MQZPLJZDSXAKPNDJMGG7FAVE2ZGYAZN6HKVUUOQTKN2YLUZD5MWB3TR6UMJHGXAJ6DGI4NPFBOCO6FYHSK3LLUASJTEXIYNXLX2VVACT6CTRKK64N25MWEW726GTLU4O6PYOMZDE7T72FGXF7LY6E47NS2XNR5SDTGESPK6R2GGCEMIUWJQH33JN3DD3PB6NGME5ZO4SHHJBT24M6FZ6QLWXP774CBYWSHYBCPDURPUW2NQU74ZOHJ5JDA5NSN5MHJVQ675KIQMSX77NUCZZQF6A577UQGBK7AKLFZTHWKL3HIDENQH4XCTGLUN3CMZJYMUPSNHAMDR6FVZ3QYQKSLXJIBCFFQSTI2OCW6VG4NCJR2L2U2Q6VOP4F3O76MGPYHVIJ55DFC77DH52WI5V7UE6FIU3EYQLVCTVCPDAT5QAWNXDZB7SLYJ7WMLFYWE4SMC35E4GJNJ6OAGYI2QRDC66OWSKHO2EIKQ4OZKATAVTTQYVBODIMAUEGHWPHC3CDDDIRKQ7GIJLFXN622A4BI24U5Q6S5V55VSTRCBW2HB6JNYYI3GEIJ7EEDGOXAZUHPCHTYUL5X66CGUWFYUDUBZ6NUHCKKRQM537DE74MDDO6F2BNSDJS6KOA2RKL5R4W6M365V74HYEKOTADQXYHQBQUH56HXXOI66HFFRO23NRXAY5ZB5TD5NNLB3732O6XGJWUNNBALZPGCTUYS6YTRGVSBPXNPMB3KGBB4JQ3IOPFYS3ABWJMS5OGPQOBHJSFP7PWQZSKGZF4T6CU6JSJVYTR7T6YH2VIWTLYHCX7WQBUOMXW6WD6VMFHKLEMUKXBNYSAF5NW7XH7BK2JNFN6SPMPPIZJOW234CHLGKVACVKLG3466KUZI6WJNFDQ3CH2E55FSUQ",
+            "url": "https://shotmetrix.com/api/qrcode/AHHUNCCTDFABV5JMLEJJA6GGEJ372IMDATT7HPP42GGVLRVUJAAET4YR35B3IEFNT2LTKDKA22WGLSQDLOTKJOHNFW34FXZGZ3SPF4IV62CHC5HON3XUUUPPNCBFTWN6X6K75T2R42OHR35GXXSJ7NP5OTNFCX2ISPZIU3YMJNNBCMMWOJYG7AI3ZIQ6ZA3DYLH3DMMZGF3MGKXXN2VKZEQ4B2MCEBZKLQFK5LXTTVWHPDSNQ6VGNGPSXU3NJ3ZKJTKF6T4D6RJCOZ542YCI56ZSGPK56J4PMC57N3RI3ZQ6NAD4MLPPNQWWNHZWMW2AUG5HDRGIVHJF5FM6BLZPYDZVVWHTHH6YFOS62ZKFM5F7UBJMESLN4SBCX3ZDRSARV5PGUCWTK4XJBZBOOP4DIKDYEFOBM2QK2WLAOB2ELPPJ4UYHCIJ7ZNS52UASW7OVI3EQSL5D7LLD3SO4DNB5SWKDNMJADZEC53GCHFREQLE6YC4S6LRQP6HLQHAS3YGR5FVCGXAZFW5DQL37RCIUQIX47DN5EF7FF5XDHDU7C3GHE6HUSUBGNY5NEZSGXZDTQGTVRR7ZXR5HAWPEKI2STEYGMPIJJHVILNMTW7VL7O7VAXKCT2TL4ZUYPT2WW3ATMJLN6OE2HWR34MQZPLJZDSXAKPNDJMGG7FAVE2ZGYAZN6HKVUUOQTKN2YLUZD5MWB3TR6UMJHGXAJ6DGI4NPFBOCO6FYHSK3LLUASJTEXIYNXLX2VVACT6CTRKK64N25MWEW726GTLU4O6PYOMZDE7T72FGXF7LY6E47NS2XNR5SDTGESPK6R2GGCEMIUWJQH33JN3DD3PB6NGME5ZO4SHHJBT24M6FZ6QLWXP774CBYWSHYBCPDURPUW2NQU74ZOHJ5JDA5NSN5MHJVQ675KIQMSX77NUCZZQF6A577UQGBK7AKLFZTHWKL3HIDENQH4XCTGLUN3CMZJYMUPSNHAMDR6FVZ3QYQKSLXJIBCFFQSTI2OCW6VG4NCJR2L2U2Q6VOP4F3O76MGPYHVIJ55DFC77DH52WI5V7UE6FIU3EYQLVCTVCPDAT5QAWNXDZB7SLYJ7WMLFYWE4SMC35E4GJNJ6OAGYI2QRDC66OWSKHO2EIKQ4OZKATAVTTQYVBODIMAUEGHWPHC3CDDDIRKQ7GIJLFXN622A4BI24U5Q6S5V55VSTRCBW2HB6JNYYI3GEIJ7EEDGOXAZUHPCHTYUL5X66CGUWFYUDUBZ6NUHCKKRQM537DE74MDDO6F2BNSDJS6KOA2RKL5R4W6M365V74HYEKOTADQXYHQBQUH56HXXOI66HFFRO23NRXAY5ZB5TD5NNLB3732O6XGJWUNNBALZPGCTUYS6YTRGVSBPXNPMB3KGBB4JQ3IOPFYS3ABWJMS5OGPQOBHJSFP7PWQZSKGZF4T6CU6JSJVYTR7T6YH2VIWTLYHCX7WQBUOMXW6WD6VMFHKLEMUKXBNYSAF5NW7XH7BK2JNFN6SPMPPIZJOW234CHLGKVACVKLG3466KUZI6WJNFDQ3CH2E55FSUQ"
+        },
+        {
+            "name": "25m-pistol-30-precision-and-rapid-fire",
+            "discipline": 8,
+            "decimal": false,
+            "time": 1792050000,
+            "app": 0,
+            "app_secret": "",
+            "id_hex": "031425364758697a8b9cadbecfe0f102",
+            "ephemeral_private_hex": "a0fa6897a1148f07d4c26464b4494f932294182ac95d6dc1774c73430a842a89",
+            "shots": [
+                {
+                    "x": 39.3,
+                    "y": -1.3,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792050167.29
+                },
+                {
+                    "x": 8.7,
+                    "y": 71.9,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792050220.68
+                },
+                {
+                    "x": -43.6,
+                    "y": -65.7,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792050247.58
+                },
+                {
+                    "x": 51.9,
+                    "y": -55.1,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792050289.02
+                },
+                {
+                    "x": 36.2,
+                    "y": 52.3,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792050324.6
+                },
+                {
+                    "x": -44.3,
+                    "y": -1.2,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792050356.77
+                },
+                {
+                    "x": 26.9,
+                    "y": 50.1,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792050396.67
+                },
+                {
+                    "x": -10.8,
+                    "y": 13.2,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1792050439.59
+                },
+                {
+                    "x": -17.1,
+                    "y": -11,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1792050475.2
+                },
+                {
+                    "x": 9.5,
+                    "y": -11.6,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1792050507.69
+                },
+                {
+                    "x": -24.7,
+                    "y": -83.8,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792050540.08
+                },
+                {
+                    "x": 17.4,
+                    "y": 86.5,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792050565
+                },
+                {
+                    "x": -83.5,
+                    "y": -4.9,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792050612.8
+                },
+                {
+                    "x": 60.8,
+                    "y": -29.8,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792050658.86
+                },
+                {
+                    "x": 215,
+                    "y": -30,
+                    "value": 1,
+                    "sighter": false,
+                    "time": 1792050790.5
+                },
+                {
+                    "x": 53.4,
+                    "y": 0.3,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792051407.03
+                },
+                {
+                    "x": 54.5,
+                    "y": -97.2,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792051413.36
+                },
+                {
+                    "x": -139.9,
+                    "y": -70.2,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051418.5
+                },
+                {
+                    "x": -33.2,
+                    "y": 50.8,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792051427.77
+                },
+                {
+                    "x": 36.1,
+                    "y": 101.4,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792051432.32
+                },
+                {
+                    "x": -106.1,
+                    "y": -25.2,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792051440.98
+                },
+                {
+                    "x": 2.8,
+                    "y": 141.3,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051447.61
+                },
+                {
+                    "x": -104.5,
+                    "y": 103.6,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051453.57
+                },
+                {
+                    "x": 0.1,
+                    "y": 44.2,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792051462.53
+                },
+                {
+                    "x": 110,
+                    "y": -88.8,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051467.14
+                },
+                {
+                    "x": -134.8,
+                    "y": 31.3,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051475.06
+                },
+                {
+                    "x": 30.7,
+                    "y": -35.7,
+                    "value": 9,
+                    "sighter": false,
+                    "time": 1792051479.63
+                },
+                {
+                    "x": 121.8,
+                    "y": -45,
+                    "value": 7,
+                    "sighter": false,
+                    "time": 1792051485.32
+                },
+                {
+                    "x": 101.7,
+                    "y": -16.5,
+                    "value": 8,
+                    "sighter": false,
+                    "time": 1792051491.52
+                },
+                {
+                    "x": -32.2,
+                    "y": 11.5,
+                    "value": 10,
+                    "sighter": false,
+                    "time": 1792051497.05
+                }
+            ],
+            "plaintext_hex": "031425364758697a8b9cadbecfe0f102000000000000000000006ad0835008041e0938000c4ff9b400415902b168a0005634f26eb78c0060b6104eec8c0070e60b5105a0007eccf23ffab4008b5d0860fba0009af3fca042c800abb7faafc9c800b9a0030fc6c800c651f85e5d8c00d2f80571b18c00dcb4e5efe78c00ef60130f6ba001015e433f6a140134ca10b001b402259f111e1aa0022818d44ea18c022a1af5a0feb4022db90b51fba0022f80deef82a00232e200e2c38c023579df52068c0237cd0010ddb4023b4d226e448c023d1ad5e09d8c02403209af4db40241fb261f1f8c0244341fdfada00246a0f5f03ac80248c9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "code": "AFZKWZUKB63BDOH3DQN426XKPLCVU7RTPTTGM4KQVJHYFJSDS4JRVDR7DLXA2UY3G7DQMH4RQDS6UK7IRPN3IKUE4CEA7QCK7LBCG4QYY6QBLGRDQBZ345TYZ7CE4ETPTQP4YV44AQ7YBS2O5ZI5BXEDFGQ5WV3WA4Z6BHSXTD7OX2QDIRPKTZJ5SRUJULTI7D5QS6SCYTWUTSHU5U6IPIVFKWQEGVNQRQI2OENQPOVB4VTLJ5GXW45UECDBRHYYVJRT5HO65DIK5UWVJD5TQHMBUKEK6XMNLHEUWNAZSDW3MGFKQ5KSUIA34KGFOX4WKZ2TGJQDKKCP6MRU7V3JIAA6SWHU7MFTSDTZI2ESVQZBU25YWS5BBV4TSPXGE6576D3LQ5LVN7ZAEXT5PJKTUIPGKV5S4TISPONZBJ3XNYX3NHOIGK6FXMHXX56ZQB2W4BF3VOWFEMTJINEHYLG3Q6P325KFASUL3Q5PSD363PLDF2QHR6ZIPHTBEARKR3CKTJHEZHCUZ3S6WQVJPWSV5DIKFZSDIZDFAOVE3H5M24ONFMQHE4LK23GPAFP2E7FK6QDGBH5PNHJMBN5CJUWHF6XKXT36K6IGU5EXKPID34NY57RJAPTTCIMYR7YVLTC76SI2A3GCKSZ4PJKTMGO7W7TZACCO6CH3BXB7OMXMRQ77TXNCJB7ZWFLB3E3Q7BF7MAKJRZNK4EJ5C2BM7MF3VE3MG2KHDURKAHNRQD4DPJMAJ5BTVIQNRF23IY2YGRUZYRAP3M7EOMPKI4GGPUAQQUVR52QA2YWAY2ICPTDGD7U5DSQGQ2ZCBZ3MHPIXCMHHEEHUSXPGAYFNDVBGI7XTXCDY47HO2DHX7XFDKWUKELKJMH5XK2TZDNMYPHC42TRISOVIQS44WHDMKK3PRPJ4U3PXCJNMNIGHLYTA4YJ6N5IH43QTMBPOFROYU2ZMDYGCE6VVCUEIKGAAUDB2VPPY6KUTP2BY4F3KG4MJTPBAZBKK6FYGH7K7WQ3VMYVYXWJOJGT3CX5FZX4JZ4RFRTRWRSJERCGDI7B4FTSQQW2F6JCJNKYGURYFX4LTT6TFMFJEALAI6F5VRGX6GGKVMZSRFQWMGYSISHIWPUARNKQCNFLPJSFFUBGBIMDTO5PEZMADQQSR46A33JPBALXIMI76JZ3WRA7OL7FBKUUJTHMBGUPP5ZH3NEWNXZC55QOGPGG54MFTI6WTAA25S7R73IDFOOQDAW4ALI7QCA7IZLHQNDHDEQGGSZYP2DPW6D6ATKIGYCFA527FKFNLMF7LNRI4EEOXX3NKAZMPHYRUHLNFDYGKYXCYQF5AAWIOCY525KMKLSOA6SCZFRCCWM6M6UWWWQV5RA2L2FNEC6ZRVHWD3Z2QNBOJ5QUSMTAE2IF2KKCRYIU74K4QIFMD4GLGQUUN4EUVVEKF3YK5HOKR2MNAQC5T2KPAB4YY2NMAEGTK6J6UMD344BDX3XGT72OGYRNDYYD6BZILCACHT3JPZW677TQWZGQAS5WX6SFF7X5EUE23USGPNBL6C7I3QNS6YOSFE",
+            "url": "https://shotmetrix.com/api/qrcode/AFZKWZUKB63BDOH3DQN426XKPLCVU7RTPTTGM4KQVJHYFJSDS4JRVDR7DLXA2UY3G7DQMH4RQDS6UK7IRPN3IKUE4CEA7QCK7LBCG4QYY6QBLGRDQBZ345TYZ7CE4ETPTQP4YV44AQ7YBS2O5ZI5BXEDFGQ5WV3WA4Z6BHSXTD7OX2QDIRPKTZJ5SRUJULTI7D5QS6SCYTWUTSHU5U6IPIVFKWQEGVNQRQI2OENQPOVB4VTLJ5GXW45UECDBRHYYVJRT5HO65DIK5UWVJD5TQHMBUKEK6XMNLHEUWNAZSDW3MGFKQ5KSUIA34KGFOX4WKZ2TGJQDKKCP6MRU7V3JIAA6SWHU7MFTSDTZI2ESVQZBU25YWS5BBV4TSPXGE6576D3LQ5LVN7ZAEXT5PJKTUIPGKV5S4TISPONZBJ3XNYX3NHOIGK6FXMHXX56ZQB2W4BF3VOWFEMTJINEHYLG3Q6P325KFASUL3Q5PSD363PLDF2QHR6ZIPHTBEARKR3CKTJHEZHCUZ3S6WQVJPWSV5DIKFZSDIZDFAOVE3H5M24ONFMQHE4LK23GPAFP2E7FK6QDGBH5PNHJMBN5CJUWHF6XKXT36K6IGU5EXKPID34NY57RJAPTTCIMYR7YVLTC76SI2A3GCKSZ4PJKTMGO7W7TZACCO6CH3BXB7OMXMRQ77TXNCJB7ZWFLB3E3Q7BF7MAKJRZNK4EJ5C2BM7MF3VE3MG2KHDURKAHNRQD4DPJMAJ5BTVIQNRF23IY2YGRUZYRAP3M7EOMPKI4GGPUAQQUVR52QA2YWAY2ICPTDGD7U5DSQGQ2ZCBZ3MHPIXCMHHEEHUSXPGAYFNDVBGI7XTXCDY47HO2DHX7XFDKWUKELKJMH5XK2TZDNMYPHC42TRISOVIQS44WHDMKK3PRPJ4U3PXCJNMNIGHLYTA4YJ6N5IH43QTMBPOFROYU2ZMDYGCE6VVCUEIKGAAUDB2VPPY6KUTP2BY4F3KG4MJTPBAZBKK6FYGH7K7WQ3VMYVYXWJOJGT3CX5FZX4JZ4RFRTRWRSJERCGDI7B4FTSQQW2F6JCJNKYGURYFX4LTT6TFMFJEALAI6F5VRGX6GGKVMZSRFQWMGYSISHIWPUARNKQCNFLPJSFFUBGBIMDTO5PEZMADQQSR46A33JPBALXIMI76JZ3WRA7OL7FBKUUJTHMBGUPP5ZH3NEWNXZC55QOGPGG54MFTI6WTAA25S7R73IDFOOQDAW4ALI7QCA7IZLHQNDHDEQGGSZYP2DPW6D6ATKIGYCFA527FKFNLMF7LNRI4EEOXX3NKAZMPHYRUHLNFDYGKYXCYQF5AAWIOCY525KMKLSOA6SCZFRCCWM6M6UWWWQV5RA2L2FNEC6ZRVHWD3Z2QNBOJ5QUSMTAE2IF2KKCRYIU74K4QIFMD4GLGQUUN4EUVVEKF3YK5HOKR2MNAQC5T2KPAB4YY2NMAEGTK6J6UMD344BDX3XGT72OGYRNDYYD6BZILCACHT3JPZW677TQWZGQAS5WX6SFF7X5EUE23USGPNBL6C7I3QNS6YOSFE"
+        }
+    ],
+    "rejected": [
+        {
+            "name": "value-does-not-match-position",
+            "expected_error": "value_does_not_match_position",
+            "code": "AHWPSXRWBL5TENOEFH3R5T2Y22SETO4FWENDN37IHINOGLIY7SDQ7ICAQVT6DQM3P353EOEDGR7R4XGJI5DSWC4WKLEOFLJKSNJGPHQUDF2RGFKGTEOGYV3ZAMSFA736B5RSOYY5BESYPS5QAUBCVTNO5MFWWJ7OYEVNOQSR4JRDQ66CNR5GDB7EKIAPQUIUFZMWXNIGYYPLZCR2V3A73KFV7FZOOAYLDCBPGLHNYVARWEBNLEUGGNBPI7CRE3HH6VYQQUZFNAAQJRNYBFHG53AWI2VDECBVNA24ODVK4J4PY77ROVX3Q3Q4DGHML7LXANDTXSUN7VSUMPVDAGSJMROWPLOWTMX5WUZ4F44E6MV64LQZIOIFIGPDBVFPGIL3GKGBOKYTQHRHQTT6TRIURAP6IQV344USRWPMGVQTUNZID2DHLPDIATLDLRCUCJEYPDKCGAZLJJIKBAGAYXMVBQNPMZGMGMYN7BFROZLWYMOYXXEIYKAUK5RCFKTJTMFQ7UIGQAQL6G7KO4DKCOSUZMF6DJMUOR7SDDK3MN56R7TVB3J63KOFFRYPMBKRKICUEJTAQSYKH4HHODOA4ABACP7TON6Y3AZDFNCAS256YLVU5UW6DAYVXYU6G6SNVSSK2O5S4R62OA6YZJHP7IHSEJHWUKCOK3SQONIUK7I473SNDB5SPLA3WSKB4SEMS46FYDID3YYOOGOZFYNTBIMVQ3HUYAUZ5VBWPLUPG5LK4SSEAEBK3ZSNZKBVQ3NQRSE6PQJPY4GVZAGOYRBM6TXTE3K5NZUE3OYG6CQXIBFC752LSHXU2B4XG54VOAAG4OWRXCLQAPLPFFGWFJ3EAHO2UF33HJHVZ2Z6WPLYAUTCFIZV2PXQWVJQXZJES7CBMV5O2G6J2ND3J4FC6J3XKE65IU3S7B7PTMCAJXUKLFLVLI5J7OF3PY77C5JBXDINGANLVJPRFG7UZZIFMOIWP42T5DDWIS4B5TSHLDRXGF4RIFP27NP467ATYJXOKT373NXNKB53OUT5B6QA7FELFWIDWQVBZNAC4YO7OA3TKI4VBYSLQW4IMZHGPOOHCXEMJ5SGEOPCCC7LSNJACKGPQXWT7LRPVKZZM37RJOVY4POI3674WZPMQH5PHXBXPL2PYZ4FVMSTUFMN2VOF5VKCVELJGJCHPS7NRHYS42BZYCILFO455DHH2QOVHQGR6BMKHHUX3Q5RDYO2L67MOFVXAA7KO4M6CJLQ7CGJIRRA76ZM774BVMKULLPIPY7TBRQUR6PPX3JLG6DGHBLUQX62WN7ZOOSJCV6NSEDGMAGSMXI2EKJYSSKB3XN4VLKC7CVCIIY6MWFAYRJONQ6MA4RAPHEYZBQB4DNY4DG2CJXWQSUW6OFJPZU6VARGENSCOYY3OZDAOTM3MN4OU56BETIGKUAUWHKO3ZFZ52Y67NW4E4AUWI37XD4YDHQEBLOE5I3XNCSYOUWPFCKXJ3WE5BKRKK63NPHGOL3CAOIGQDSIXPZLQNIOH5WZZZIW5OLD72GPCC6WDNEHLYMYEY5T7VGPGDQIQ"
+        },
+        {
+            "name": "value-out-of-range",
+            "expected_error": "value_out_of_range",
+            "code": "AHD3SANT553JGAGJ43MGT65WHVG7AGMA5K24FVUIAI3M7IUJSYNQVS7S4ED62TGURKTSYZCVG3SHNBTRIW652KKWILHDNJXZIF2RXYRDMSZQSF6D536FAM7W5SYDFX7J42FIDBJZAFFSE4GLALFIW2GQLISURW7PN7B6QO6IVWZEG4HNBKKHC2WCMBA2AFA6SIC45MQ42D7P7ROV5QIXTY57NQAUQE522KPZ7TXQTQJ3RWX3KQ6WWORAMZIEY53UQTTBXVM2ZFJE464AKPBG73276PMVAPOUKMUXUUWGBC7VTDVBCRBZ5SN45MBJHMYHXQWVX6B23Q6OLTBZSBXZLL4QTIZDZJ25WTI4EOYA6R6ZEOWLVR6UXOF56KFVHDP7Z4L5LIKCVLTSFNIWDHEWEYXHRQ5U5EULBXC5Z7PTTYNCPG7AGC677RGIWC6D76BZXTJL7WUEGES6B4MJPQVFVAFYOAYI5CY73YT35PSB6IRN2CHN5UGSJBZSI3EGKFTTNKLP7LHXIPCBG5CBK4WPDAFN7KT56RHCJT6UD5JNDVVVEJMHPVX6QSYXEWZHG62VGNFLLEO5NVC6SR6DLHFL4PPXCDMR3PV5GIQQJI6X5VRZA5XG36WHIHBE6DJJLAL3WZGCP6GQTFYOORPDHJQFBMWXEXIATSK7JJJQ3VYXMRIXKTQIBYK27BJRBG2CILLB2PIBQ3VK5KCCQZFKPVF7OETCOSI6P635VPASJIFMJYASWUILSB2LLT2FEA6AURTAGJJDMN5CSRGFGSJOIQ63IXAEHZZCEMFTLGELHKVTVEI5KQFVPJCYCZPWUCZ54UYSBIM5W3R36QX2CR3HVQWPKLMM6PSI4Z2QHBFFH4NMXJ4LMMFVAERMWO3CRJIAXRK2X4WJYRLYEST7RHYYAA7KJ64N5D46H5HMHWB3VTTNG6B53O3VCQMVPCDI5HOQIF4VAGAQKFV53ANBKICMEWNQ2HP56SFNUL4T2OYA5RUVN2PNREV2D6MCFIEQFOBJ3QSJAVCO7UUU5VRSFGT2WQ3POUJCQXCSNLTD2BFVKIMGITCFVOM35DZQXOSTLNX5E5QDHZEXBJIDSS4QW6ZS3GTKS35AVDC5VLU24OHEHSHWXWJJ3FDWYD2DBHYLOHR22DCQR5A6CMGDTL5RJCNFXCU4CZBQYHIXIYVIQ3PPXROGUHS6IAUN5OCKZP32JZS3OHWWY7P7NIWJRODNVAJVPD75ABWJUF3BDPGU2OGHQMXLWLNIPNZTPZWGGTZUVGBL7M2ZHAHM66OFFGCD7IKIIZWP7KHG2LJFDOIKDRBWVBNO7RUE43CDLUJXRM7FM2MH45666MGRGAAOW6B7VYZEC24TASGGYIL66YVIK3ON6346WCMYS276LSYGD6NZQKL7VFPGJ4DO24JSS4TOXEOIL4XPLC7GEOBK3JTS66RB2YRJZTOKYU2DL3IAOL32JM2MPJVHJI6DGXYWP2N53HURDBIKL6SHSD2ZRUNS6EWA27UHRLNJKGKH7TP7FQMPPY7DDFNNN72V5F7NFREQS4SYJMEWE"
+        },
+        {
+            "name": "shot-times-out-of-order",
+            "expected_error": "shot_times_out_of_order",
+            "code": "AGBRHSUCM7FQDDX2APXI6MPDYC7J4XNX44GA3N3XR4IMTBKBWRARX4KEDXHTYJU5GVGY4BP64AUUQUKEU6V3ER6CTMS2PHX56FMUCMIOMGNQUWHM255OZJJAHHT5M3G6WMDQHHU3F7H3VGBODBFIAOW3NA2VVXHPOE4FS7JGNLVP2GYSUI3LEGLG2UUMRM45BBKFC3YTYRSFJCGUNPYV57G3JLO5JWFXNBLYUCODAJD4NMEEB2WKQYOSTDIWLAB4A6YEZTXKFCLOORUSCISZVK7QZ6MONQDAQHKA3WZMA5RFH7TUUDYVH2UXYBOW2TCVRT4JFF7ZPUIBMRAYFDEWZ44RM42ND45DRMIYYWAJVVIM3N6ZFU3RSDEIJN27Y2FY32VFJUYND3FNX45K2O35XBJXX7QFRAF7C42ZYQYMLUJV5BNRQCDSOGI6HWLAITI3Y23Q7WMUKE7SVGWUWZUSGHZUF4GYE7USI6RZORZNUBGZ22ZPOY7PE7B7I5REHA3YXKKNQSPAS5VYZMIB7WZIFFQSV5N4DOTTKIIBKA7AMMGILOFHJFFUHVWZHEXKM7YDFTBZZIRW7ENKSP4G27HGGYQHRSBOKISXH5DKCI4X6JYLKXNPXPVW5O7HAZZ3Q5GRBEV2DIN7UMBD7QQTBZQ643VZYJW6PYIWFTMRDTDYOOD2VYXTA2KO3QSPWZRQDGMCSPVOUQC6LRHRDSASPDPZ7A3CSVXGOPVBSTXEYJLDGMR4BNDNURUZDMN7ZGM3UWRZMNUDHN77CZJXCVUUXHW27IHDS2TFV7Q2EWUC3X25TZUGQEIX7K6ZYXSKI7HF6JVJMNAID6QDGI7S6ES4QBFCRAPP4BXNFZNAMXDCPYHGQMREDLL7A42SUEVSVMVCBHOPAJMTPQZ4DYC5TKPRBNVOTG43SO6XC3ZOQDQTGKDJVJ7YTNY6Y3Q2HWNFA2RVIRRMNK6N4EMIKWABQMDIRPB3LZZXDOSBPHPMAKKRJ4QR6DR3J7WTRJXEAK2CZBPD4QTYW52J2MQD4OQCJRC2HNQIPAORK3RXH4NUYUVS2N2PWBKYZ6I4SSO7ZROVM5HML4HKZG6WTJ2UQ3WJ7HMP42DH2WWFBL6Q56B7WIA5AVNGCAR7ETDLGADRUCMUSTKKPXKKW4JGBWG3B2UQQRC3XLK4II6R5O55LF2HYRU3UWPFYPCBUS6RHKHPPUSFBCQ2OZHZW3X5J7C5KDU7KGVI4Z5PW6WIA3P4BYQEEL473GYBLZTBJTH4RJWRINVPDJ7JVHBQG36T2LRVP7VGGUKMRDT5JPC4YKHQUSLXY7E6MJ57CCIVXBO3L4OZWSDDYYBKYRBYSOJZ7F2GXDT243RVS7SBD5JRTSW3QPZPKPD4HUXW5PLSBYOOM4FKT7HN6TH3LWJ7G4UX4SLKAOFTOQZH7FCYFXFINSHCQXNC5BXUU2VT42IX6FPAUTNYMKQCK427V4XPGWDLNZPVJR5S4QI3BFPAGZIQVW3FOTZ6AYS37BVWQHNXU5TOQOROVVTOMGB2C5TKET3UKIYTMQ7JM7XZ5ILIE"
+        }
+    ],
+    "now": 1792100000,
+    "input_errors": [
+        {
+            "name": "no-shots",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [],
+            "error": "shots: 1 to 120 shots"
+        },
+        {
+            "name": "121-shots",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "shots: 1 to 120 shots"
+        },
+        {
+            "name": "discipline-13",
+            "discipline": 13,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "discipline: unknown number"
+        },
+        {
+            "name": "start-before-2000",
+            "discipline": 1,
+            "decimal": true,
+            "time": 946684799,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "time: session start must be after 2000-01-01 and not in the future"
+        },
+        {
+            "name": "start-in-the-future",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1792186401,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "time: session start must be after 2000-01-01 and not in the future"
+        },
+        {
+            "name": "app-65536",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 65536,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "app: 0 to 65535"
+        },
+        {
+            "name": "value-missing",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: value must be a number"
+        },
+        {
+            "name": "value-0-5",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 20,
+                    "y": 0,
+                    "value": 0.5,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: value out of range"
+        },
+        {
+            "name": "whole-rings-11",
+            "discipline": 1,
+            "decimal": false,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "value": 11,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: value out of range"
+        },
+        {
+            "name": "only-x",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 0.3,
+                    "y": null,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: give x and y together"
+        },
+        {
+            "name": "position-409-5-mm",
+            "discipline": 9,
+            "decimal": false,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 409.5,
+                    "y": 0,
+                    "value": 0,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: position outside ±409.4 mm"
+        },
+        {
+            "name": "shot-time-before-start",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "time": 1791899999.5,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: time before the session start or more than 46 h after it"
+        },
+        {
+            "name": "shot-time-after-46-h",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "time": 1792067772.15,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: time before the session start or more than 46 h after it"
+        },
+        {
+            "name": "shot-times-backwards",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "time": 1791900400,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                },
+                {
+                    "x": -0.5,
+                    "y": 0.8,
+                    "value": 10.5,
+                    "time": 1791900350,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 2: time earlier than the shot before"
+        },
+        {
+            "name": "shot-time-in-the-future",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1792100000,
+            "app": 0,
+            "shots": [
+                {
+                    "time": 1792186400.5,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: time in the future"
+        },
+        {
+            "name": "only-sighters",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "sighter": true,
+                    "x": 0.3,
+                    "y": 0.2,
+                    "value": 10.6
+                }
+            ],
+            "error": "no scored shot"
+        },
+        {
+            "name": "value-does-not-match-position",
+            "discipline": 1,
+            "decimal": true,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 9.5,
+                    "y": 0,
+                    "value": 10.5,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 1: value does not match the position"
+        },
+        {
+            "name": "25m-pistol-fits-neither-target",
+            "discipline": 8,
+            "decimal": false,
+            "time": 1791900000,
+            "app": 0,
+            "shots": [
+                {
+                    "x": 12,
+                    "y": 5,
+                    "value": 10,
+                    "sighter": false
+                },
+                {
+                    "x": 200,
+                    "y": 0,
+                    "value": 9,
+                    "sighter": false
+                }
+            ],
+            "error": "shot 2: value does not match the position"
+        }
+    ]
+}
